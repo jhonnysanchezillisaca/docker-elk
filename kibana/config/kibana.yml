@@ -6,9 +6,13 @@ server.name: kibana
 server.host: "0"
 elasticsearch.url: http://elasticsearch:9200
 
+xpack.security.enabled: false
+xpack.spaces.enabled: false
+xpack.monitoring.enabled: true
+
 ## Custom configuration
 #
-elasticsearch.username: "kibanaserver"
-elasticsearch.password: "kibanaserver"
+elasticsearch.username: "admin"
+elasticsearch.password: "admin"
 
 searchguard.cookie.password: "123567818187654rwrwfsfshdhdhtegdhfzftdhncn"
